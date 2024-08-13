@@ -1,1 +1,19 @@
 Bootstrap Notes
+  Bootstrap CDN:
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  class="container-fluid" in a div
+    Containers are the basic layout element in bootstrap, and are required to use the 12 spaces system of bootstrap. 
+  There are 3 basic containters:
+    .container -> Sets a max-width at each responsive breakpoint
+    .container-fluid -> width: 100 % at all breakpoints
+    .container-{breakpoint} -> width: 100% until the specified breakpoint
+
+  class="img-responsive" in an image : To make it adopt the size of the website i guess
+  class="text-center" to a h2 in order to center it. 
+  class="btn" and class="btn-default" to give buttons a default bootstrap style, Way cleaner.
+  Also class="btn-block" gives the button the 100% width. Also it will push other stuff down.
+  class="btn-default" will put the main color of my app in the button. It replaces the btn-default.
+  So we will get something like class="btn btn-primary btn-block"
+  A different color will be handled if we put the class="btn-info". It is for optional actions
+  Finally, class="btn-danger" will signal users that the button performs a destructive actions.
+  Bootstrap has many predefined colors for buttons
